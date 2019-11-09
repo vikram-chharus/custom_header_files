@@ -18,7 +18,7 @@ void alpha(string word,int index)//(a,b,c,d,e...)
 		system("cls");
 	}
 }
-void animateWord(string word)
+void animateWord(string word)//call this function with a string parameter to animate the word while printing
 {
 	for(int i=0;i<word.length();i++)
 	{
